@@ -21,6 +21,12 @@ body {
 .navbar .nav-item .nav-link:focus {
     color: var(--green-color);
 }
+.navbar-toggler svg {
+    color: #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 .navbar .search {
     border-left: 2px solid var(--green-color);
 }
@@ -31,4 +37,43 @@ body {
     background-color: var(--red-color);
     font-weight: bold;
     color: #fff;
+    color: var(--yellow-color);
+}
+/*landing section*/
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 75px);
+}
+/*features section*/
+.main-title::before {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .feat .icons {
+    height: 200px;
+}
+.features .feat .icons svg{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.features .feat .icons .num {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+.features .feat .icons .icon {
+    bottom: 0;
+    color: var(--green-color);
+}
+.features .feat h4 {
+    color: var(--yellow-color);
 }
