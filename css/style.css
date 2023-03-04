@@ -122,3 +122,7 @@ body {
     -o-transform: translateX(0);
     transform: translateX(0);
 }
+/*stuff*/
+.stuff .container > p {
+    max-width: 500px;
+}
