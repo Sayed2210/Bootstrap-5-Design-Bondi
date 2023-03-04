@@ -77,3 +77,48 @@ body {
 .features .feat h4 {
     color: var(--yellow-color);
 }
+/*our work*/
+.our-work {
+    background-color: var(--section-color);
+}
+.our-work ul li.active {
+    background-color: var(--red-color);
+    color: #ffc400;
+}
+.our-work ul li:not(.active):hover {
+    color: var(--red-color);
+}
+.box img {
+    padding: 5px;
+}
+.box::before {
+    content: attr(data-work);
+    position: absolute;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #33d1cc88;
+    left: 5px;
+    top: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateX(calc(-100% - 5px));
+    -moz-transform: translateX(calc(-100% - 5px));
+    -ms-transform: translateX(calc(-100% - 5px));
+    -o-transform: translateX(calc(-100% - 5px));
+    transform: translateX(calc(-100% - 5px));
+}
+.box:hover:before{
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
