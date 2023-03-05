@@ -140,3 +140,54 @@ body {
 .projects {
     background-color: var(--dark-color);
 }
+/*Subscribe
+*/
+.subscribe {
+    background-color: var(--yellow-color);
+} 
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: white;
+}
+.subscribe input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+/* footer */
+.footer {
+    background-color: var(--dark-color);
+}
+.footer .info .copyright > span {
+    color: var(--green-color);
+}
+.footer .info .copyright > div > span {
+    color: var(--yellow-color);
+}
+.footer .contact ul a {
+    width: 35px;
+    height: 35px;
+}
+.footer .links ul li {
+    cursor: pointer;
+}
+.footer .contact ul svg{
+    font-size: 1.2rem;
+}
+.footer .contact ul li a.facebook {
+    background-color: #1877f2;
+}
+.footer .contact ul li a.twitter {
+    background-color: #1da1f2;
+}
+.footer .contact ul li a.linkedin {
+    background-color: #0a66c2;
+}
+.footer .contact ul li a.youtube {
+    background-color: #ff0000;
+}
