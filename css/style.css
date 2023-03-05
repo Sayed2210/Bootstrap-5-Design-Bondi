@@ -126,3 +126,17 @@ body {
 .stuff .container > p {
     max-width: 500px;
 }
+/*our team section*/
+.our-team {
+    background-color: var(--section-color);
+}
+.our-team h2 {
+    color: var(--yellow-color);
+}
+.our-team .box h4 {
+    background-color: var(--green-color);
+}
+/*projects section*/
+.projects {
+    background-color: var(--dark-color);
+}
